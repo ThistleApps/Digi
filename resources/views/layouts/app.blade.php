@@ -49,6 +49,14 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     <li><a href="{{ url('/offers') }}">Offers</a></li>
+                    <li><a href="{{ url('/orders') }}">Orders</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Customer Info <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ url('/customers') }}">Customers</a></li>
+                        <li><a href="{{ url('/contacts') }}">Contacts</a></li>
+                    </ul>
+                    </li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->

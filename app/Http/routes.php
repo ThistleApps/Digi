@@ -13,6 +13,8 @@
 
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
    return view('welcome');
@@ -30,7 +32,13 @@ Route::get('/offers', function () {
 
 Route::get('/admin', function() {
     return view('admin.index');
-
 });
+
+Route::get('/orders', 'EagleController@show_order_list');
+
+Route::get('/customers', 'EagleController@show_customer_list');
+
+Route::get('/contacts', 'EagleController@show_contact_list');
+
 
 Route::resource('admin/users', 'AdminUsersController');
