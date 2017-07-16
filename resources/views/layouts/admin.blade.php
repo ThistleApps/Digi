@@ -120,7 +120,7 @@
                     </li>
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Users<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-user fa-fw"></i>Users<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="{{route('admin.users.index')}}">All Users</a>
@@ -135,7 +135,7 @@
                     </li>
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-pencil-square fa-fw"></i> Posts<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="/posts">All Posts</a>
@@ -151,7 +151,7 @@
 
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Categories<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-th-list fa-fw"></i>Categories<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="/categories">All Categories</a>
@@ -167,14 +167,14 @@
 
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>Media<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-file-video-o fa-fw"></i>Media<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="/media">All Media</a>
                             </li>
 
                             <li>
-                                <a href="">Upload Media</a>
+                                <a href="/media/upload">Upload Media</a>
                             </li>
 
                         </ul>
@@ -182,7 +182,15 @@
                     </li>
 
 
+                    <li>
+                        <a href="#"><i class="fa fa-plug fa-fw"></i> Plugins<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/mailers">Mailers</a>
+                            </li>
 
+                        </ul>
+                    </li>
 
 
 
@@ -199,9 +207,7 @@
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
-                    <li>
-                        <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
-                    </li>
+
                     <li>
                         <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
                     </li>
@@ -259,14 +265,14 @@
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="active" href="blank.html">Blank Page</a>
+                                <a class="active" href="/samples/blank">Blank Page</a>
                             </li>
                             <li>
-                                <a href="login.html">Login Page</a>
+                                <a href="/samples/login">Login Page</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->

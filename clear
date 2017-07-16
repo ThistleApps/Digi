@@ -1,0 +1,17 @@
+[33mcommit 9dcdbf08cc0065466d88437029eb871c4e2fc2c5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Duncan <mduncan@epicor.com>
+Date:   Mon Jul 3 19:48:58 2017 -0400
+
+    Added 2nd database access and reads
+
+[33mcommit 9b4bb43cdc4447f606c15c6b112a93e1e0e1b7ae[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ThistleApps <mduncan77@comcast.net>
+Date:   Sat Feb 18 07:58:08 2017 -0500
+
+    First Commit
+
+[33mcommit 7d4d40e8fa06570180cfa3421b164560a3ea6d87[m
+Author: ThistleApps <mduncan77@comcast.net>
+Date:   Sat Feb 18 07:44:56 2017 -0500
+
+    First Commit

@@ -40,5 +40,11 @@ Route::get('/customers', 'EagleController@show_customer_list');
 
 Route::get('/contacts', 'EagleController@show_contact_list');
 
+Route::get('api/contacts', 'ContactsApiController@index');
+
+Route::get('api/contact', 'ContactsApiController@showContact');
+
+Route::get('api/contactlist', 'ContactsApiController@showContactList');
 
 Route::resource('admin/users', 'AdminUsersController');
+

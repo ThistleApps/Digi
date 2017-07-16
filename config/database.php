@@ -68,11 +68,11 @@ return [
 
         'mysql2' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => '192.168.119.10',
+            'port' => '3306',
+            'database' => 'EAGLEDW',
+            'username' => 'root',
+            'password' => 'pharos',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
